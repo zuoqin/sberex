@@ -1,0 +1,292 @@
+﻿<div class="row" style="margin:30px 0;">
+            <div class="container">
+                <div style="width:100%;padding:10px;">
+                    <a href="download.php?id=2" class="btn btn-default btn-sm pull-right" style="margin-top: -6px;margin-left:5px;">
+                        <i class="fa fa-file-excel-o"></i> Export to CSV                    </a>
+                    
+                    <h4 style="display:inline-block;color: #00578c; margin:0 5px;"><i class="fa fa-tasks"></i> Groups</h4>
+                    <button onclick="openAddgrpModal();" class="btn btn-default btn-sm pull-right" style="margin-top: -6px;"><i class="fa fa-plus"></i> Add new group</button>
+                            
+                    <br>
+                   
+                    <hr>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-10 col-md-offset-1"> 
+                    <div id="groupsTable_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="groupsTable_length"><label>Shows <select name="groupsTable_length" aria-controls="groupsTable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> results</label></div><div id="groupsTable_filter" class="dataTables_filter"><label><input type="search" class="form-control" placeholder="Search" aria-controls="groupsTable"></label></div><table class="table table-striped table-bordered table-hover table-responsive dataTable no-footer" id="groupsTable" role="grid" aria-describedby="groupsTable_info" style="width: 920px;">
+                       <thead>
+                            <tr class="success" role="row"><th style="width: 52px;" class="sorting_asc" rowspan="1" colspan="1" aria-label=""></th><td class="sorting" tabindex="0" aria-controls="groupsTable" rowspan="1" colspan="1" aria-label="  Group name: activate to sort column ascending" style="width: 250px;"> <b> Group name</b></td><td class="sorting" tabindex="0" aria-controls="groupsTable" rowspan="1" colspan="1" aria-label="  Group members: activate to sort column ascending" style="width: 245px;"> <b> Group members</b></td><td class="sorting" tabindex="0" aria-controls="groupsTable" rowspan="1" colspan="1" aria-label="  Numbers of devices: activate to sort column ascending" style="width: 300px;"> <b> Numbers of devices</b></td></tr>
+                        </thead>
+                        <tbody>
+                                                     
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                <tr role="row" class="odd">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="FylvGt6Yyb6n+zTXcJHwjBawOY/w3QSZxF7rdUJLqhA=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('FylvGt6Yyb6n+zTXcJHwjBawOY/w3QSZxF7rdUJLqhA=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('FylvGt6Yyb6n+zTXcJHwjBawOY/w3QSZxF7rdUJLqhA=','gvgv',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>gvgv</b></td>
+                                <td>2 Users</td>
+                                <td>7 Devices</td>
+                            </tr><tr role="row" class="even">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="W9kzudNdF+YLQujrnf53XMEL02a16/ES3qi1GRNQzGU=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('W9kzudNdF+YLQujrnf53XMEL02a16/ES3qi1GRNQzGU=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('W9kzudNdF+YLQujrnf53XMEL02a16/ES3qi1GRNQzGU=','שגיא',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>שגיא</b></td>
+                                <td>1 Users</td>
+                                <td>0 Devices</td>
+                            </tr><tr role="row" class="odd">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="uYxnJrS3aLv0JbJFLnnmW4TRRpF6/YB0JD6LUhPYu0U=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('uYxnJrS3aLv0JbJFLnnmW4TRRpF6/YB0JD6LUhPYu0U=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('uYxnJrS3aLv0JbJFLnnmW4TRRpF6/YB0JD6LUhPYu0U=','קבוצה טובה',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>קבוצה טובה</b></td>
+                                <td>1 Users</td>
+                                <td>0 Devices</td>
+                            </tr><tr role="row" class="even">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="ENQa/YVswjcbpY2Uk5IHB795tgDbyBLV5YulkgggbQ4=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('ENQa/YVswjcbpY2Uk5IHB795tgDbyBLV5YulkgggbQ4=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('ENQa/YVswjcbpY2Uk5IHB795tgDbyBLV5YulkgggbQ4=','החברים של נטאשה',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>החברים של נטאשה</b></td>
+                                <td>1 Users</td>
+                                <td>0 Devices</td>
+                            </tr><tr role="row" class="odd">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="tULcfNiUQ+H+fR+mXPV9nkzm/9u3+6iSVPtb/MG1qrg=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('tULcfNiUQ+H+fR+mXPV9nkzm/9u3+6iSVPtb/MG1qrg=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('tULcfNiUQ+H+fR+mXPV9nkzm/9u3+6iSVPtb/MG1qrg=','asd',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>asd</b></td>
+                                <td>0 Users</td>
+                                <td>0 Devices</td>
+                            </tr><tr role="row" class="even">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="SqrwvrzWXGYSvd/7FHWYETQc5q7tddYj3y/3ddPVYQQ=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('SqrwvrzWXGYSvd/7FHWYETQc5q7tddYj3y/3ddPVYQQ=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('SqrwvrzWXGYSvd/7FHWYETQc5q7tddYj3y/3ddPVYQQ=','sfdsf',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>sfdsf</b></td>
+                                <td>0 Users</td>
+                                <td>0 Devices</td>
+                            </tr><tr role="row" class="odd">
+                            
+                                <td style="width:70px;" class="sorting_1">
+                                     <div class="dropdown">
+                                        <button class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown">
+                                           <span class="caret"></span> <i class="fa fa-bars"></i>
+                                        </button>
+                                        <ul id="login-dp" class="dropdown-menu" style="margin:0;">
+                                            
+                                            <li>
+                                                 <div class="row">
+                                                        <div class="col-md-12">  
+                                                             <form action="assign_devices_groups.php?lang=en" method="post" style="display:inline;">
+                                                                <div onclick="$(this).closest('form').submit();">
+                                                                <label class="menu_item" style="margin-top:0;"><i class="fa fa-hdd-o"></i> Device assignment  </label>
+                                                                </div>
+                                                                <input type="hidden" name="i" value="xO9bHlr7cQKCARCkEDK36TVA/PdC44rc16h5rzFr+M8=">
+                                                            </form> 
+                                                            
+                                                            <hr>
+                                                            
+                                                            <label onclick="openEditgrpModal('xO9bHlr7cQKCARCkEDK36TVA/PdC44rc16h5rzFr+M8=')" class="menu_item"><i class="fa fa-edit"></i> Rename  </label>
+                                                            <hr> 
+                                                            
+                                                            <label class="menu_item" onclick="deleteGroup('xO9bHlr7cQKCARCkEDK36TVA/PdC44rc16h5rzFr+M8=','נס ציונה',this)"><i class="fa fa-remove"></i> Delete  </label>
+                                                            
+                                                            <hr>
+                                                            
+                                                        </div>
+                                                 </div>
+                                            </li>
+                                         </ul>
+                                    </div>
+                                </td>
+                                <td><b>נס ציונה</b></td>
+                                <td>1 Users</td>
+                                <td>8 Devices</td>
+                            </tr></tbody>
+                    </table><div class="dataTables_info" id="groupsTable_info" role="status" aria-live="polite">shows results 1 to 7 from 7 results</div><div class="dataTables_paginate paging_simple_numbers" id="groupsTable_paginate"><a class="paginate_button previous disabled" aria-controls="groupsTable" data-dt-idx="0" tabindex="0" id="groupsTable_previous">prev</a><span><a class="paginate_button current" aria-controls="groupsTable" data-dt-idx="1" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="groupsTable" data-dt-idx="2" tabindex="0" id="groupsTable_next">next</a></div></div>
+                </div>
+            </div>
+        </div>
