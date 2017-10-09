@@ -1,0 +1,147 @@
+﻿<nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/beeper.png" style="height: 73px;width: 123px;margin-top: -20px;"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="mapBased.php?lang=he"><i class="fa fa-map-o"></i> מפה </a></li>
+        <li><a href="dashboard.php?lang=he"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+          
+          <!--
+            <li ><a href="#"><i class="fa fa-bar-chart"></i> דו״חות</a></li>
+          -->
+                       <li><a href="users.php?lang=he"><i class="fa fa-key"></i> משתמשים והרשאות</a></li>   
+                    
+            
+          
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">&nbsp;&nbsp;<span class="caret"></span>  
+                   <i class="fa fa-archive"></i> ניהול מערכת                </a>
+                <ul id="login-dp2" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+                                <a href="groups.php?lang=he" class="menu_item"><i class="fa fa-users"></i> ניהול קבוצות</a>
+                                <hr>
+                                <br>
+                                <a href="devices.php?lang=he" class="menu_item"><i class="fa fa-hdd-o"></i> מאגר יחידות</a>
+                                <hr>
+                                <br>
+                                <a href="contacts.php?lang=he" class="menu_item"><i class="fa fa-phone"></i> אנשי קשר</a>
+                                <hr>
+                                <br>
+                                <a href="polygons.php?lang=he" class="menu_item"><i class="fa fa-globe"></i> ניהול Polygons</a>
+                                <hr>
+                                <br>
+                                <a href="mpaContacts.php?lang=he" class="menu_item"><i class="fa fa-globe"></i> מיודעי MPA</a>
+                                <hr>
+                                <br>
+                                <a href="setting.php?lang=he" class="menu_item"><i class="fa fa-gear"></i> הגדרות</a>
+                                <br>
+                                <br>
+							</div>
+                         <br><br>
+					 </div>
+				</li>
+                </ul>
+            </li>
+                      <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">&nbsp;&nbsp;<span class="caret"></span>  
+                   <i class="fa fa-area-chart"></i> דו״חות                </a>
+                <ul id="login-dp2" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+                                <a href="report.availability.php?lang=he" class="menu_item"><i class="fa fa-line-chart"></i> דו״ח זמינות יחידות</a>
+                                <hr>
+                                <br>
+                                <a href="report.triggeredAlerts.php?lang=he" class="menu_item"><i class="fa fa-bullhorn"></i> דו״ח תרגולים</a>
+                                <hr>
+                                <br>
+                                <a href="report.notifications.php?lang=he" class="menu_item"><i class="fa fa-envelope-o"></i> דו״ח דיוור התראות</a>
+                                <hr>
+                                <br>
+                                <a href="report.senselog.php?lang=he" class="menu_item"><i class="fa fa-globe"></i>  דו״ רעידות אדמה</a>
+                                <br>
+                                <br>
+							</div>
+                         <br><br>
+					 </div>
+				</li>
+                </ul>
+            </li> 
+      </ul>
+              <ul class="nav navbar-nav navbar-left">
+        <li>            
+            <h4 class="pull-left" style="color:#3e6882;font-size:17px;margin-left:26px;margin-top: 24px;"> שירות לקוחות 03-6100066 </h4>
+        </li>
+          <li>
+          <ul class="nav navbar-nav navbar-left" style="margin-left:10px;">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">&nbsp;&nbsp;<span class="caret"></span>  
+                  <b><img src="images/flags/he.svg" class="flag_icon"> he</b>
+              
+          </a>
+			<ul id="login-dp2" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+                                <a href="/devices.php?lang=he" class="menu_item"><img src="images/flags/he.svg" class="flag_icon"> עברית</a>
+                                <hr>
+                                <br>
+                                <a href="/devices.php?lang=en" class="menu_item"><img src="images/flags/en.svg" class="flag_icon"> English</a>
+                                <br>
+                                <br>
+							</div>
+                         <br><br>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+          
+          </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <table style="margin-top:-9px;">
+                    <tbody><tr>
+                        <td valign="top" style="color:#b7b7b7;font-size:13px;">
+                            <b>מחלקת שו</b><br>מנהל מערכת                        </td>
+                        <td valign="middle">
+                            &nbsp;&nbsp;<span class="caret"></span>  
+                        </td>
+                    </tr>
+              </tbody></table>
+          </a>
+			<ul id="login-dp" class="dropdown-menu" style="margin-right: -73px;">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+                                <a href="about.php?lang=he" class="menu_item"><i class="fa fa-info-circle"></i> אודות המערכת</a>
+                                <hr>
+                                <br>
+                                <a href="index.php?lang=he" class="menu_item"><i class="fa fa-external-link-square"></i> התנתק מהמערכת</a>
+                                <br>
+                                <br>
+							</div>
+                         <br><br>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+        
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
