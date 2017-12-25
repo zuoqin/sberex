@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Lingonberry Talent Acquisition</title>
+    
+
+  </head>
+  <body>
+    <button type="button" onclick="onbtnClick()">Print!</button>
+    <div id="main"></div>
+  </body>
+
+
+<script type="text/javascript">
+  function onbtnClick() {
+    var html = "";
+    var tbl = document.createElement("table");
+    var tblBody = document.createElement("tbody");
+    // creating all cells
+    for (var i = 1; i <= 100; i++) {
+      // creates a table row
+      var row = document.createElement("tr");
+   
+      for (var j = 0; j < 1; j++) {
+        // Create a <td> element and a text node, make the text
+        // node the contents of the <td>, and put the <td> at
+        // the end of the table row
+        var cell = document.createElement("td");
+        var val = i;
+        if( (i % 3 == 0) && (i % 5 == 0) ){
+
+          val = "lingonberry";
+        }
+        else if(i % 3 == 0){
+          val = "lingon"; 
+        }
+        else if(i % 5 == 0){
+          val = "berry"; 
+        }
+        var cellText = document.createTextNode(val);
+        cell.appendChild(cellText);
+        row.appendChild(cell);
+      }
+   
+      // add the row to the end of the table body
+      tblBody.appendChild(row);
+    }
+   
+    // put the <tbody> in the <table>
+    tbl.appendChild(tblBody);
+
+    body = document.getElementById("main");
+
+    // appends <table> into <body>
+    body.appendChild(tbl); 
+  }
+</script>
+</html>
